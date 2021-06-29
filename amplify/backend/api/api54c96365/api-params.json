@@ -1,0 +1,54 @@
+{
+  "paths": [
+    {
+      "name": "/{id}",
+      "lambdaFunction": "amplifydynamoappaae8c144",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/*"
+    },
+    {
+      "name": "/items",
+      "lambdaFunction": "amplifydynamoapp592da023",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "api54c96365",
+  "apiName": "api54c96365",
+  "functionArns": [
+    {
+      "lambdaFunction": "amplifydynamoappaae8c144"
+    },
+    {
+      "lambdaFunction": "amplifydynamoapp592da023"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplifydynamoapp-dev-133832-authRole",
+    "unAuthRoleName": "amplify-amplifydynamoapp-dev-133832-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "amplifydynamoappaae8c144",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    },
+    {
+      "category": "function",
+      "resourceName": "amplifydynamoapp592da023",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

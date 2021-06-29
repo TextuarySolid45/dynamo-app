@@ -1,0 +1,47 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifydynamoapp-dev-133832-authRole",
+      "UnauthRoleArn": "arn:aws:iam::064862107260:role/amplify-amplifydynamoapp-dev-133832-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::064862107260:role/amplify-amplifydynamoapp-dev-133832-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-amplifydynamoapp-dev-133832-deployment",
+      "UnauthRoleName": "amplify-amplifydynamoapp-dev-133832-unauthRole",
+      "StackName": "amplify-amplifydynamoapp-dev-133832",
+      "StackId": "arn:aws:cloudformation:us-west-2:064862107260:stack/amplify-amplifydynamoapp-dev-133832/58cf4730-c319-11eb-ae4b-0238bddd7185",
+      "AmplifyAppId": "dxhnlge25e5yw"
+    },
+    "categories": {
+      "function": {
+        "amplifydynamoapp5919defc": {
+          "deploymentBucketName": "amplify-amplifydynamoapp-dev-133832-deployment",
+          "s3Key": "amplify-builds/amplifydynamoapp5919defc-766f6f507445464c6e4b-build.zip"
+        },
+        "amplifydynamoappaae8c144": {
+          "deploymentBucketName": "amplify-amplifydynamoapp-dev-133832-deployment",
+          "s3Key": "amplify-builds/amplifydynamoappaae8c144-65756338566c6c35486b-build.zip"
+        }
+      }
+    }
+  },
+  "testreact": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifydynamoapp-testreact-123931-authRole",
+      "UnauthRoleArn": "arn:aws:iam::064862107260:role/amplify-amplifydynamoapp-testreact-123931-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::064862107260:role/amplify-amplifydynamoapp-testreact-123931-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-amplifydynamoapp-testreact-123931-deployment",
+      "UnauthRoleName": "amplify-amplifydynamoapp-testreact-123931-unauthRole",
+      "StackName": "amplify-amplifydynamoapp-testreact-123931",
+      "StackId": "arn:aws:cloudformation:us-west-1:064862107260:stack/amplify-amplifydynamoapp-testreact-123931/ea2295a0-c6fe-11eb-8236-02fc51c83e67"
+    },
+    "categories": {
+      "function": {
+        "amplifydynamoappaae8c144": {},
+        "amplifydynamoapp5919defc": {},
+        "amplifydynamoapp592da023": {},
+        "amplifydynamoappbc8bd943": {}
+      }
+    }
+  }
+}

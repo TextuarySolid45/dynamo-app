@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "amplifydynamoappc22be917",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "apifd6a0a0a",
+  "apiName": "apifd6a0a0a",
+  "functionArns": [
+    {
+      "lambdaFunction": "amplifydynamoappc22be917"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplifydynamoapp-testreact-123931-authRole",
+    "unAuthRoleName": "amplify-amplifydynamoapp-testreact-123931-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "amplifydynamoappc22be917",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
